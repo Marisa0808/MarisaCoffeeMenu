@@ -1,0 +1,55 @@
+body {
+    background-image: url(coffeebean.jpg);
+    background-size: auto;
+
+} 
+.menu {
+    width: 50%;
+    background-color: burlywood;
+    margin: auto;
+    border-radius: 7px;
+}
+.menu h1{
+    font-family: 'Adal', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    margin:auto;
+    text-align: center;  
+}
+.menu p{
+    font-family: 'Adal', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+}
+.section{
+    background: rgba(124, 90, 27, 0.7);
+    opacity: 10px;
+    max-width: 80vw;
+    height: 990px;
+    margin: auto;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.itemlist ol, ul{
+    list-style:none;
+    position: relative;
+    margin-left: 15%;
+    top:45px;
+    font-family:'Abel', sans-serif;
+    font-size: 1.075rem;
+    color:#abb7b8;
+    line-height: 50px;
+    font-weight: bold;
+}
+.itemlist ol{
+    list-style:none;
+    position: absolute;
+    right: 25%;
+    top:140px;
+    font-family:  'Abel', sans-serif;
+    font-size: 1.075rem;   
+    color:#95a5a6;    
+}
